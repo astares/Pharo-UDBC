@@ -9,14 +9,17 @@ Metacello new
 	load
 ```
 
-# Only load SQLite3
+# For SQlite3
 
+Old:
 ```Smalltalk
 Metacello new 
 	repository: 'github://astares/Pharo-UDBC/src';
 	baseline: 'UDBC';
 	load: 'SQLite'
 ```
+
+New: please now use [https://github.com/pharo-rdbms/Pharo-SQLite3](https://github.com/pharo-rdbms/Pharo-SQLite3) for SQlite3 only
 
 # Roadmap for SQLite3
 
